@@ -1,0 +1,18 @@
+.serach-btn {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.dropwown-menu {
+  border: 1px solid blue;
+  cursor: pointer;
+  padding: 10px;
+}
+.dropwown-menu:focus {
+  outline: none;
+}
+.search-input {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-right: none;
+  border: 1px solid blue;
+}

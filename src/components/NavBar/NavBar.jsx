@@ -6,15 +6,9 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
-import {
-  Button,
-  Container,
-  Dropdown,
-  Form,
-  Nav,
-  Navbar,
-} from "react-bootstrap";
+import { Button, Container, Form, Nav, Navbar } from "react-bootstrap";
 import logo from "../../assets/images/logo-colored.png";
+import "./NavBar.css";
 
 const NavBar = () => {
   return (
@@ -27,20 +21,18 @@ const NavBar = () => {
           <Form.Control
             type="search"
             placeholder="Search"
-            className="me-2"
+            className="search-input"
             aria-label="Search"
           />
-          <Dropdown>
-            <Dropdown.Toggle variant="success" id="dropdown-basic">
-              All Category
-            </Dropdown.Toggle>
-            <Dropdown.Menu>
-              <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
-              <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
-              <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
-            </Dropdown.Menu>
-          </Dropdown>
-          <Button variant="outline-success">Search</Button>
+          <select className="dropwown-menu" name="filter" id="">
+            <option value="#">All Category</option>
+            <option value="#">Categories</option>
+            <option value="#">Categories</option>
+            <option value="#">Categories</option>
+          </select>
+          <Button className="serach-btn" variant="primary">
+            Search
+          </Button>
         </Form>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse
