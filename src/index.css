@@ -1,3 +1,8 @@
+:root {
+  --grey: #979797;
+  --blue: #0d6efd;
+  --dark: #1c1c1c;
+}
 * {
   box-sizing: border-box;
   margin: 0;
@@ -15,6 +20,6 @@ ul {
 a {
   text-decoration: none;
 }
-.header-item-color {
-  color: #979797;
+:focus {
+  outline: none;
 }

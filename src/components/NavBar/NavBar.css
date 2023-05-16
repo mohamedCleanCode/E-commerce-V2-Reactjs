@@ -1,18 +1,12 @@
-.serach-btn {
-  border-top-left-radius: 0;
-  border-bottom-left-radius: 0;
+.navbar li a {
+  color: var(--dark);
+  font-weight: bold;
+  padding: 10px 15px 10px 0;
 }
-.dropwown-menu {
-  border: 1px solid blue;
+.navbar select {
+  padding: 10px 5px;
+  border: none;
   cursor: pointer;
-  padding: 10px;
-}
-.dropwown-menu:focus {
-  outline: none;
-}
-.search-input {
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 0;
-  border-right: none;
-  border: 1px solid blue;
+  color: var(--dark);
+  font-weight: bold;
 }
