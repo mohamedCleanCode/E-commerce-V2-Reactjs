@@ -6,7 +6,7 @@ import "./NavBar.css";
 
 const NavBar = () => {
   return (
-    <div className="navbar bg-white">
+    <div className="navbar bg-white mb-5">
       <Container>
         <Nav className="align-items-center">
           <Nav.Item as="li">
