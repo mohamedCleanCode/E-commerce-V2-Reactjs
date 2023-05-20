@@ -37,3 +37,52 @@
   font-size: 30px;
   font-weight: bold;
 }
+.intro .user-intro {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.user-intro > div {
+  padding: 10px;
+  border-radius: 8px;
+}
+.user-intro .user {
+  height: 50%;
+  background-color: var(--body-bg);
+}
+.user-intro .user div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.user-intro .user div div {
+  width: 70%;
+  color: var(--dark);
+  font-size: 18px;
+  margin-bottom: 0;
+}
+.user-intro .user button {
+  display: block;
+  width: 100%;
+}
+.user-intro .user button {
+  background-color: var(--blue);
+}
+.user-intro .user button:last-child {
+  margin-top: 10px;
+  background-color: #fff;
+  color: var(--blue);
+  border: none;
+}
+.user-intro > div:nth-child(2) {
+  background-color: var(--orange);
+  color: #fff;
+  font-size: 18px;
+}
+.user-intro > div:last-child {
+  background-color: var(--sky);
+  color: #fff;
+  font-size: 18px;
+}

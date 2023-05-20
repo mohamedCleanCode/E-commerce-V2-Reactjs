@@ -2,6 +2,7 @@ import React from "react";
 import { Button, Col, Container, Row } from "react-bootstrap";
 // import banner from "../../assets/images/banner.png";
 import Sidebar from "../Sidbar/Sidebar";
+import UserIntro from "../UserIntro/UserIntro";
 import "./Intro.css";
 
 const Intro = () => {
@@ -19,6 +20,9 @@ const Intro = () => {
               <Button variant="light">Learn more</Button>
             </div>
           </div>
+        </Col>
+        <Col xs="12" md="6" lg="3">
+          <UserIntro />
         </Col>
       </Row>
     </Container>
