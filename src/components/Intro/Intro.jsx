@@ -7,7 +7,7 @@ import "./Intro.css";
 
 const Intro = () => {
   return (
-    <Container className="bg-white py-3 intro d-flex">
+    <Container className="bg-white py-3 intro d-flex mb-5 border rounded">
       <Row className="w-100">
         <Col xs="12" md="6" lg="3">
           <Sidebar />
