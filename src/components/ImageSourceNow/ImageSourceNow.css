@@ -1,0 +1,15 @@
+.image-source-now {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.image-source-now img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.image-source-now .info {
+  position: absolute;
+  top: 10%;
+  left: 20%;
+}

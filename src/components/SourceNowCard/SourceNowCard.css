@@ -1,0 +1,13 @@
+.source-now-card {
+  border: 1px solid #eee;
+  border-right: none;
+}
+.source-now-card p {
+  margin: 0;
+  color: var(--grey);
+}
+.source-now-card img {
+  width: 82px;
+  height: 82px;
+  object-fit: cover;
+}
