@@ -3,6 +3,7 @@ import ConsumerAndGadgets from "../../components/ConsumerAndGadgets/ConsumerAndG
 import DealsAndOffers from "../../components/DealsAndOffers/DealsAndOffers";
 import HomeAndOutDoor from "../../components/HomeAndOutDoor/HomeAndOutDoor";
 import Intro from "../../components/Intro/Intro";
+import SuppliersQuote from "../../components/SuppliersQuote/SuppliersQuote";
 
 const HomePage = () => {
   return (
@@ -11,6 +12,7 @@ const HomePage = () => {
       <DealsAndOffers />
       <HomeAndOutDoor />
       <ConsumerAndGadgets />
+      <SuppliersQuote />
     </>
   );
 };

@@ -17,7 +17,7 @@ const ConsumerAndGadgets = () => {
   return (
     <Container className="bg-white home-and-outdoor d-flex justify-content-center ps-0  mb-5 border rounded">
       <Row className="w-100">
-        <Col xs="12" md="4" lg="3" className="col pe-0">
+        <Col xs="12" md="4" lg="3" className="col px-0">
           <ImageSourceNow
             img={image1}
             title="Consumer electronics and gadgets"

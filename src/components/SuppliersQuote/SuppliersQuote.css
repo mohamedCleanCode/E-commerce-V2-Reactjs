@@ -1,0 +1,9 @@
+.suppliers-quote {
+  height: 400px;
+  background-image: url("../../assets/images/Mask\ group.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.suppliers-quote .form-control:disabled {
+  background-color: #fff;
+}
