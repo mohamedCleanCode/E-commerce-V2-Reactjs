@@ -11,7 +11,7 @@ import "./SuppliersQuote.css";
 
 const SuppliersQuote = () => {
   return (
-    <Container className="suppliers-quote rounded">
+    <Container className="suppliers-quote rounded mb-5">
       <Row className="h-100 align-items-center">
         <Col xs="12" md="6">
           <div className="info">
