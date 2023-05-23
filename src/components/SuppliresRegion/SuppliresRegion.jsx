@@ -8,7 +8,7 @@ import SuppliresRegionCard from "../SuppliresRegionCard/SuppliresRegionCard";
 
 const SuppliresRegion = () => {
   return (
-    <Container className="px-0">
+    <Container className="px-0 mb-5">
       <SectionTitle title="Suppliers by region" />
       <Row>
         <SuppliresRegionCard

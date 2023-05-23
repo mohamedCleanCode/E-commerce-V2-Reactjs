@@ -1,0 +1,19 @@
+.news-letter form {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.news-letter form div {
+  width: 70%;
+}
+@media (max-width: 767px) {
+  .news-letter form {
+    flex-direction: column;
+  }
+  .news-letter form div {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
