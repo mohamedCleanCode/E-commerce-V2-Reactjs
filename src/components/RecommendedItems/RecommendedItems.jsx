@@ -9,7 +9,7 @@ import SectionTitle from "../SectionTitle/SectionTitle";
 
 const RecommendedItems = () => {
   return (
-    <Container>
+    <Container className="px-0 mb-3">
       <SectionTitle title="Recommended items" />
       <Row>
         <RecommendedItemsCard

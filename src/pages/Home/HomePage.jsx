@@ -3,6 +3,7 @@ import ConsumerAndGadgets from "../../components/ConsumerAndGadgets/ConsumerAndG
 import DealsAndOffers from "../../components/DealsAndOffers/DealsAndOffers";
 import HomeAndOutDoor from "../../components/HomeAndOutDoor/HomeAndOutDoor";
 import Intro from "../../components/Intro/Intro";
+import OurExtraServices from "../../components/OurExtraServices/OurExtraServices";
 import RecommendedItems from "../../components/RecommendedItems/RecommendedItems";
 import SuppliersQuote from "../../components/SuppliersQuote/SuppliersQuote";
 
@@ -15,6 +16,7 @@ const HomePage = () => {
       <ConsumerAndGadgets />
       <SuppliersQuote />
       <RecommendedItems />
+      <OurExtraServices />
     </>
   );
 };
