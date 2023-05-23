@@ -1,0 +1,19 @@
+.supplires--region-card {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.supplires--region-card img {
+  margin-right: 10px;
+}
+.supplires--region-card p {
+  margin: 0;
+}
+.supplires--region-card p:first-child {
+  font-weight: bold;
+  font-size: 14px;
+}
+.supplires--region-card p:last-child {
+  color: var(--grey);
+  font-size: 12px;
+}

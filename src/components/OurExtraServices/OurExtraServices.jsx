@@ -15,7 +15,7 @@ import SreviceCard from "../SreviceCard/SreviceCard";
 
 const OurExtraServices = () => {
   return (
-    <Container className="px-0">
+    <Container className="px-0 mb-5">
       <SectionTitle title="Our extra services" />
       <Row>
         <SreviceCard

@@ -6,6 +6,7 @@ import Intro from "../../components/Intro/Intro";
 import OurExtraServices from "../../components/OurExtraServices/OurExtraServices";
 import RecommendedItems from "../../components/RecommendedItems/RecommendedItems";
 import SuppliersQuote from "../../components/SuppliersQuote/SuppliersQuote";
+import SuppliresRegion from "../../components/SuppliresRegion/SuppliresRegion";
 
 const HomePage = () => {
   return (
@@ -17,6 +18,7 @@ const HomePage = () => {
       <SuppliersQuote />
       <RecommendedItems />
       <OurExtraServices />
+      <SuppliresRegion />
     </>
   );
 };
