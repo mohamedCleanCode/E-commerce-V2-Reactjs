@@ -2,6 +2,7 @@ import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import BreadCrumb from "../../components/BreadCrumb/BreadCrumb";
 import FilterSide from "../../components/FilterSide/FilterSide";
+import Pagination from "../../components/Pagination/Pagination";
 import ProductCard from "../../components/ProductCard/ProductCard";
 
 const ShopPage = () => {
@@ -23,6 +24,9 @@ const ShopPage = () => {
             <ProductCard />
             <ProductCard />
             <ProductCard />
+          </Row>
+          <Row className="py-4">
+            <Pagination />
           </Row>
         </Col>
       </Row>

@@ -28,3 +28,17 @@ a {
 :focus {
   outline: none;
 }
+.pagination {
+  width: 70%;
+  margin: auto;
+}
+.active > .page-link,
+.page-link.active {
+  background-color: #eee;
+}
+.page-link {
+  border: none;
+}
+.page-link:focus {
+  border: none;
+}
