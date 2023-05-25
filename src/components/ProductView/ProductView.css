@@ -1,0 +1,11 @@
+.product-view .form-select {
+  width: 40%;
+}
+.viwe-controls div {
+  cursor: pointer;
+  border: 1px solid #eee;
+  padding: 5px;
+}
+.viwe-controls div.active {
+  background-color: var(--body-bg);
+}

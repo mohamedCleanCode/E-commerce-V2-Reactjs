@@ -4,6 +4,7 @@ import BreadCrumb from "../../components/BreadCrumb/BreadCrumb";
 import FilterSide from "../../components/FilterSide/FilterSide";
 import Pagination from "../../components/Pagination/Pagination";
 import ProductCard from "../../components/ProductCard/ProductCard";
+import ResultHeader from "../../components/ResultHeader/ResultHeader";
 
 const ShopPage = () => {
   return (
@@ -14,6 +15,7 @@ const ShopPage = () => {
           <FilterSide />
         </Col>
         <Col xs="6" sm="8" lg="9">
+          <ResultHeader />
           <Row>
             <ProductCard />
             <ProductCard />
