@@ -1,0 +1,7 @@
+.product-card {
+  min-height: 250px;
+}
+.product-card del {
+  color: var(--grey);
+  font-size: 14px;
+}
